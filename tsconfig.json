@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "strict": true,
+      "module": "commonjs",
+      "noEmit": true
+    },
+    "include": ["src/**/*", "global.d.ts"],
+    "exclude": [
+      "node_modules"
+    ],
+    "types": [
+        "node",
+        "@types/jest",
+      ],
+    "typeRoots": [
+        "./node_modules/@types"
+    ]
+  }
